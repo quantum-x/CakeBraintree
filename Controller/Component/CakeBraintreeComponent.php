@@ -116,6 +116,7 @@ class CakeBraintreeComponent extends Component {
 
     public function sale($array = []) {
         if (empty($array)) throw new Exception(__('Transaction information missing. Please see the documentation'));
+        if (!isset($array['merchantAccountId']) && $this->merchantAccountId)   $array['merchantAccountId'] = $this->merchantAccountId;
 
         return  Braintree_Transaction::sale($array);
     }
