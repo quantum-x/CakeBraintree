@@ -4,7 +4,7 @@
   "description":"Excruciatingly simple wrapper for the Braintree library",
   "type":"cakephp-plugin",
   "require":{
-    "braintree/braintree_php" : "3.21.1"
+    "braintree/braintree_php" : "^3.21.1"
   },
   "extra": {
     "installer-name": "CakeBraintree"
