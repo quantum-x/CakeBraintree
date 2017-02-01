@@ -1,6 +1,6 @@
 {
   "name":"quantum-x/CakeBraintree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description":"Excruciatingly simple wrapper for the Braintree library",
   "type":"cakephp-plugin",
   "require":{
