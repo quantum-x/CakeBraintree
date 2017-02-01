@@ -83,6 +83,7 @@ class CakeBraintreeComponent extends Component {
         Braintree_Configuration::merchantId($this->merchantId);
         Braintree_Configuration::publicKey($this->publicKey);
         Braintree_Configuration::privateKey($this->privateKey);
+        Braintree_Configuration::sslVersion(6);
 
         if ($this->production) {
             Braintree_Configuration::environment('production');
